@@ -1,0 +1,9 @@
+# Question 3 - Abstract Classes
+
+## Can you give an example of how abstract classes can lead to implementation of anti-patterns such as the God Object pattern?
+
+Suppose we have an abstract class Animal with various subclasses such as Dog, Cat, Bird, etc. The Animal class has a method Move() that all subclasses are required to implement. Now suppose we want to add a new feature that requires all animals to be able to make a sound. We might be tempted to add a new method MakeSound() to the Animal class, but not all animals can make the same kind of sound. A dog barks, a cat meows, and a bird chirps. One way to implement this is to add a new abstract method MakeSound() to the Animal class and require all subclasses to implement it.
+
+However, this can lead to the God Object pattern if we end up with many methods like MakeSound() that are specific to only a subset of animals. For example, suppose we add a new feature that requires all animals to be able to swim. We might be tempted to add a new method Swim() to the Animal class, but not all animals can swim. A dog can swim, but a cat cannot. Instead of adding a new abstract method Swim() to the Animal class and requiring all subclasses to implement it, we might end up adding a new subclass AquaticAnimal and move all animals that can swim into this subclass. We might then add more subclasses for animals that can fly or crawl, and so on.
+
+Over time, this can lead to the God Object pattern where the Animal class becomes a massive class that contains many methods specific to only a subset of animals. This can make the code difficult to understand and maintain, and violate the single responsibility principle. Instead, it would be better to avoid using abstract classes in this way and use interfaces or smaller, more focused classes that have specific responsibilities.
