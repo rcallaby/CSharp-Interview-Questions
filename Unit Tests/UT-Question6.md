@@ -1,0 +1,11 @@
+# Question 6 - Unit Tests
+
+## Can you explain the difference between unit tests and integration tests, and when to use each type of test?
+
+Unit tests and integration tests are two types of tests that are commonly used in software development. The main difference between the two is the scope of what they test.
+
+Unit tests are tests that are focused on testing individual units of code, such as functions or methods, in isolation from the rest of the codebase. They are designed to test the behavior of a specific unit of code in a controlled and predictable environment, usually with the help of mocks or stubs to simulate external dependencies. Unit tests are typically automated and run as part of a continuous integration and deployment (CI/CD) pipeline to catch bugs early in the development process. Unit tests are useful for catching issues related to the specific unit being tested, such as incorrect calculations or logic errors, and can provide quick feedback on the quality of the code.
+
+Integration tests, on the other hand, are tests that are focused on testing how different units of code work together as a system. Integration tests are designed to test the interactions and dependencies between multiple units of code, and are often more complex and slower than unit tests. Integration tests are usually performed on a running system or environment that simulates the production environment as closely as possible. Integration tests can catch issues related to how different units of code interact, such as incorrect data flow or communication errors between different components. Integration tests are typically run less frequently than unit tests and are more commonly used in the pre-production environment to ensure that the system is working correctly before it is deployed to production.
+
+In summary, unit tests are used to test individual units of code in isolation, while integration tests are used to test how different units of code work together as a system. Both types of tests are important and should be used in combination to ensure the quality of the code. Unit tests are usually used more frequently during the development process, while integration tests are used more during the pre-production and testing phases.
