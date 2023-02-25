@@ -12,7 +12,7 @@ If you have suggestions for new interview questions, tests, or answers, we welco
 + Ensure that your changes are well-documented and easy to understand.
 + Include a clear description of the changes you've made in the pull request.
 + Ensure that your changes do not break any existing code or tests.
-+ Make sure your code follows the coding style guidelines for this repo.
+
 
 ## Code of Conduct
 We expect all contributors to follow our code of conduct, which can be found in the CODE_OF_CONDUCT.md file. Please familiarize yourself with this document before contributing.
