@@ -21,3 +21,5 @@ Strategy Pattern: This pattern allows you to define a set of algorithms and dyna
 When preparing for a technical interview, it is important to understand these design patterns and their applications thoroughly. You should be able to describe the problem each pattern solves, its benefits, and the trade-offs involved in using it. Additionally, it is crucial to be able to code the pattern in at least one programming language and to explain the code to the interviewer.
 
 Design patterns are an essential aspect of software engineering and can play a critical role in technical interviews. By demonstrating your knowledge of design patterns, you can prove your expertise in software engineering and increase your chances of landing the job. To prepare for technical interviews, it is crucial to understand the most commonly asked design patterns, their applications, and to be able to code and explain them effectively.
+
+## Design Patterns - Table of Contents
