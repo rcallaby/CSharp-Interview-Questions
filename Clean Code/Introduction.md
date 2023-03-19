@@ -46,3 +46,5 @@ Speculative generality: This occurs when a class or method is written to handle 
 Code smells are not always a problem, but they can indicate potential issues with the code's design or implementation. Understanding code smells and how to avoid them is an important aspect of writing clean code, as it helps ensure that code is maintainable and free of bugs.
 
 Writing clean code is an important aspect of software development and is particularly important in the context of technical interviews. Understanding how to write clean code in C#, as well as SOLID principles and code smells, can help demonstrate your ability to write efficient, maintainable code, and can be an important factor in getting hired. Clean code is easier to read, maintain, and extend, which leads to fewer bugs and improved collaboration with other developers. Adhering to SOLID principles and avoiding code smells are critical steps in ensuring that code is well-designed and maintainable, and they can help demonstrate your understanding of good software development practices.
+
+### Clean Code - Table of Contents

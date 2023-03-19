@@ -1,0 +1,2 @@
+# Sealed Classes - Introduction
+

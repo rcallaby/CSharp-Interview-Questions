@@ -14,3 +14,17 @@ It's also important to have a solid understanding of the software development pr
 Finally, it's important to be familiar with common software design patterns and architecture concepts. Understanding design patterns such as the Singleton pattern, Factory pattern, and the Observer pattern can help you to write more maintainable and scalable code. Understanding architecture concepts such as microservices, event-driven architectures, and service-oriented architectures can also help you to demonstrate your understanding of how to build large-scale software systems.
 
 Preparing for a technical interview for a C# role is a crucial step in landing a job in the technology industry. By having a strong understanding of the language, computer science concepts, and software development process, you can demonstrate your technical skills and make a positive impression on potential employers. Taking the time to prepare for a technical interview can help you to feel confident and ready to succeed.
+
+
+## Table of Contents
+
+General Questions
+Events
+Inheritance
+Abstract Classes
+Sealed Classes
+Clean Code
+Design Patterns
+SOLID Code
+Unit Tests
+
