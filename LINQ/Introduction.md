@@ -1,6 +1,5 @@
 # LINQ - Introduction
 
-
 LINQ (Language Integrated Query) is a powerful technology in C# that allows developers to query and manipulate data from different data sources using a unified syntax. It was introduced in .NET Framework 3.5 and has since become an integral part of the language. In this article, we will discuss LINQ in detail and explain why you should learn it to master a technical interview.
 
 ## What is LINQ?
