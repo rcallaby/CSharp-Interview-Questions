@@ -22,9 +22,9 @@ Preparing for a technical interview for a C# role is a crucial step in landing a
 + [Inheritance](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/Introduction.md)
 + [LINQ](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/LINQ/Introduction.md)
 + [Abstract Classes](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/Introduction.md)
-+ Sealed Classes
-+ Clean Code
-+ Design Patterns
-+ SOLID Code
-+ Unit Tests
++ [Sealed Classes](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Sealed-Classes/Introduction.md)
++ [Clean Code](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/Introduction.md)
++ [Design Patterns](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Design-Patterns/Introduction.md)
++ [SOLID Code](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/SOLID-Code/Introduction.md)
++ [Unit Tests](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Unit-Tests/Introduction.md)
 
