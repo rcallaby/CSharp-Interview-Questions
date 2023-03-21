@@ -1,6 +1,5 @@
 # C#-Interview-Questions
 
-
 Technical interviews are crucial for landing jobs in the technology industry, especially for positions that involve the use of the C# programming language. As a widely-used and versatile language, knowledge of C# is highly sought after in the software development industry. Technical interviews are designed to evaluate a candidate's abilities, technical knowledge and experience, and problem-solving skills.
 
 As a candidate, preparing for a technical interview is essential to making a positive impression and demonstrating your ability to handle the responsibilities of the role. Technical interview questions often test a candidate's ability to write code, design algorithms, and solve complex problems. Therefore, it is important to have a strong understanding of C# and its features, as well as general computer science concepts.
@@ -18,13 +17,14 @@ Preparing for a technical interview for a C# role is a crucial step in landing a
 
 ## Table of Contents
 
-General Questions
-Events
-Inheritance
-Abstract Classes
-Sealed Classes
-Clean Code
-Design Patterns
-SOLID Code
-Unit Tests
++ [General Questions](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/Introduction.md)
++ [Events](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Events/Introduction.md)
++ [Inheritance](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/Introduction.md)
++ [LINQ](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/LINQ/Introduction.md)
++ [Abstract Classes](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/Introduction.md)
++ Sealed Classes
++ Clean Code
++ Design Patterns
++ SOLID Code
++ Unit Tests
 
