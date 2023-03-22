@@ -22,4 +22,4 @@ When preparing for a technical interview, it is important to understand these de
 
 Design patterns are an essential aspect of software engineering and can play a critical role in technical interviews. By demonstrating your knowledge of design patterns, you can prove your expertise in software engineering and increase your chances of landing the job. To prepare for technical interviews, it is crucial to understand the most commonly asked design patterns, their applications, and to be able to code and explain them effectively.
 
-## Design Patterns - Table of Contents
+### Design Patterns - Table of Contents
