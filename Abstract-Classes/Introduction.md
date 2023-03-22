@@ -41,13 +41,13 @@ During a technical interview, you may be asked to explain abstract classes, how 
 Abstract classes are a fundamental concept in object-oriented programming, and they are widely used in C# development. They provide a powerful mechanism for creating flexible and extensible code. Knowing abstract classes inside and out is essential for any C# developer, as it demonstrates a solid understanding of object-oriented programming principles and design patterns. Therefore, it is crucial to study abstract classes thoroughly before a technical interview to demonstrate your knowledge and expertise in C# development.
 
 ### Table of Contents
-[Q1. What is an abstract class in C#, and how does it differ from an interface?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question1.md)
-[Q2. How can abstract classes be used to implement the Template Method design pattern?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question2.md)
-[Q3. Can you give an example of how abstract classes can lead to implementation of anti-patterns such as the God Object pattern?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question3.md)
-[Q4. How can abstract classes be used to implement the Factory Method pattern?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question4.md)
-[Q5. Can you explain the SOLID principle of Single Responsibility and how it relates to abstract classes in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question5.md)
-[Q6. How can abstract classes be used to implement the Dependency Inversion principle?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question6.md)
-[Q7. Can you explain the SOLID principle of Liskov Substitution and how it relates to abstract classes in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question7.md)
-[Q8. What is the difference between an abstract class and a concrete class in C#, and how does this relate to the Open-Closed principle?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question8.md)
-[Q9. Can you give an example of how abstract classes can help to enforce the Interface Segregation principle?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question9.md)
-[Q10. How can abstract classes be used to implement the Strategy design pattern?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question10.md)
++ [Q1. What is an abstract class in C#, and how does it differ from an interface?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question1.md)
++ [Q2. How can abstract classes be used to implement the Template Method design pattern?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question2.md)
++ [Q3. Can you give an example of how abstract classes can lead to implementation of anti-patterns such as the God Object pattern?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question3.md)
++ [Q4. How can abstract classes be used to implement the Factory Method pattern?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question4.md)
++ [Q5. Can you explain the SOLID principle of Single Responsibility and how it relates to abstract classes in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question5.md)
++ [Q6. How can abstract classes be used to implement the Dependency Inversion principle?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question6.md)
++ [Q7. Can you explain the SOLID principle of Liskov Substitution and how it relates to abstract classes in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question7.md)
++ [Q8. What is the difference between an abstract class and a concrete class in C#, and how does this relate to the Open-Closed principle?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question8.md)
++ [Q9. Can you give an example of how abstract classes can help to enforce the Interface Segregation principle?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question9.md)
++ [Q10. How can abstract classes be used to implement the Strategy design pattern?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/AC-Question10.md)
