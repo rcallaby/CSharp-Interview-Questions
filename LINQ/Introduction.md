@@ -35,3 +35,13 @@ LINQ is widely used in C# development, especially for querying data from SQL dat
 In conclusion, LINQ is a powerful technology in C# that allows developers to query and manipulate data from different data sources using a unified syntax. By learning LINQ, you can improve your efficiency, flexibility, and clarity when working with data in C#. Additionally, since LINQ is widely used in C# development, it is a valuable skill to have for technical interviews.
 
 ### Table of Contents
++ Q1. What is LINQ and how does it work in C#?
++ Q2. Can you explain the difference between a query expression and a method chain in LINQ?
++ Q3. Can you give an example of using LINQ to filter data in a collection?
++ Q4. How can LINQ be used to perform grouping and aggregation operations on data?
++ Q5. Can you explain the SOLID design principles and how they relate to writing maintainable code?
++ Q6. How does the Single Responsibility Principle (SRP) apply to LINQ code?
++ Q7. Can you demonstrate the use of LINQ to implement the Open-Closed Principle (OCP)?
++ Q8. How does the Liskov Substitution Principle (LSP) apply to LINQ code?
++ Q9. Can you give an example of using LINQ to implement the Interface Segregation Principle (ISP)?
++ Q10.  Can you explain the Dependency Inversion Principle (DIP) and how it relates to LINQ code?
