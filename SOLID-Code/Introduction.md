@@ -28,3 +28,13 @@ Moreover, mastering SOLID principles can also help you become a better software 
 SOLID principles are a set of design principles that are widely used in software engineering. These principles provide a set of guidelines for writing high-quality, maintainable, and scalable code. By mastering these principles, you can demonstrate your understanding of software engineering principles and become a better software developer.
 
 ### Table of Contents
++ Q1. Can you explain the Single Responsibility Principle in your own words, and how it applies to C# code?
++ Q2. How would you refactor C# code that is tightly coupled between multiple classes?
++ Q3. How do you avoid Primitive Obsession when designing C# classes, and what are the benefits of doing so?
++ Q4. Can you describe the difference between Inheritance and Composition in C#, and how you would choose between them for a given scenario?
++ Q5. How do you identify duplicated code in C#, and what techniques can be used to remove it?
++ Q6. Can you explain the Open-Closed Principle in C#, and provide an example of how it can be implemented in code?
++ Q7. What is Dependency Injection, and how can it help to reduce tight coupling in C# code?
++ Q8. Can you explain the Liskov Substitution Principle in your own words, and provide an example of how it can be violated in C# code?
++ Q9. How can you use Interfaces in C# to reduce coupling and improve maintainability?
++ Q10. Can you describe the difference between Structural and Behavioral design patterns in C#, and provide an example of each?

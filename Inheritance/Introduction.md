@@ -77,3 +77,8 @@ Polymorphism is another essential concept in object-oriented programming, and it
 Inheritance is a fundamental concept in C# programming that allows you to create more efficient and reusable code. It is an essential part of object-oriented programming and is often required in technical interviews. Understanding how inheritance works and how to use it effectively can help you write better code, solve complex problems, and impress your interviewers.
 
 ### Table of Contents
+Q1. What is inheritance in C# and how does it work?
+Q2. Can you give an example of inheritance in C#?
+Q3. What is the difference between single inheritance and multiple inheritance in C#?
+Q4. How can you use inheritance to extend an existing class in C#?
+Q5. Can you explain the concept of polymorphism and how it relates to inheritance in C#?
