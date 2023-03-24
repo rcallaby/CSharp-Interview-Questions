@@ -23,3 +23,9 @@ When preparing for a technical interview, it is important to understand these de
 Design patterns are an essential aspect of software engineering and can play a critical role in technical interviews. By demonstrating your knowledge of design patterns, you can prove your expertise in software engineering and increase your chances of landing the job. To prepare for technical interviews, it is crucial to understand the most commonly asked design patterns, their applications, and to be able to code and explain them effectively.
 
 ### Table of Contents
++ Q1. What are design patterns in C# and why are they imporant?
++ Q2. What is the difference between a design pattern and a Architecture Pattern?
++ Q3. What is the factory method and how is it used?
++ Q4. Can you give an example of how to implement the singleton pattern in C#?
++ Q5. Can you please tell me what is the Observer Pattern in C# and how does it work?
++ Q6. How can you use the Decorator Pattern in C# to extend the behavior of an object dynamically?
