@@ -29,3 +29,17 @@ Design patterns are an essential aspect of software engineering and can play a c
 + Q4. Can you give an example of how to implement the singleton pattern in C#?
 + Q5. Can you please tell me what is the Observer Pattern in C# and how does it work?
 + Q6. How can you use the Decorator Pattern in C# to extend the behavior of an object dynamically?
++ Q7. What is the Command Pattern in C# and how is it used?
++ Q8. Can you explain the use of the builder pattern for constructing complex objects?
++ Q9. What is the Prototype pattern in C# and how does it differ from the Factory Method pattern?
++ Q10. How can you use the Facade pattern in C# to simplify a complex system?
++ Q11. What is the adaptor pattern in C# and how is it used to integrate with existing systems?
++ Q12. Can you give an example of how to implement the Composite pattern in C# for creating a tree-like structure?
++ Q13. What is the State pattern in C# and how does it differ from a state machine?
++ Q14. How can you use the Template Method pattern in C# to define the steps of an algorithm and allow subclasses to provide their own implementation?
++ Q15. What is the Flyweight pattern in C# and how is it used to optimize memory usage?
++ Q16. Can you explain the use of the Bridge pattern in C# to separate the abstraction from its implementation?
++ Q17. What is the Chain of Responsibility pattern in C# and how is it used to handle events in a loosely coupled manner?
++ Q18. How can you use the Mediator pattern in C# to reduce coupling between objects?
++ Q19. What is the Interpreter pattern in C# and how is it used for language interpretation?
++ Q20. Can you explain the use of the Visitor pattern in C# for adding new operations to existing objects without modifying their source code?
