@@ -77,18 +77,18 @@ Polymorphism is another essential concept in object-oriented programming, and it
 Inheritance is a fundamental concept in C# programming that allows you to create more efficient and reusable code. It is an essential part of object-oriented programming and is often required in technical interviews. Understanding how inheritance works and how to use it effectively can help you write better code, solve complex problems, and impress your interviewers.
 
 ### Table of Contents
-+ Q1. What is inheritance in C# and how does it work?
-+ Q2. Can you give an example of inheritance in C#?
-+ Q3. What is the difference between single inheritance and multiple inheritance in C#?
-+ Q4. How can you use inheritance to extend an existing class in C#?
-+ Q5. Can you explain the concept of polymorphism and how it relates to inheritance in C#?
-+ Q6. How can you use the "base" keyword in C# to call the base class constructor?
-+ Q7. What is an abstract class in C# and how does it differ from a regular class?
-+ Q8. Can you give an example of how to use inheritance to create a hierarchy of classes in C#?
-+ Q9. What is an interface in C# and how is it related to inheritance?
-+ Q10. How can you use inheritance and polymorphism together to achieve dynamic dispatch in C#?
-+ Q11. What is the purpose of the base keyword in C#, and how is it used in inheritance?
-+ Q12. Can you give an example of how to use the is operator and the as operator with inheritance in C#?
-+ Q13. Can you discuss the differences between virtual methods and abstract methods in C#, and when each should be used?
-+ Q14. How do you handle constructor inheritance in C#, and what is the role of the base keyword in constructor inheritance?
-+ Q15. What is the difference between inheritance and composition in C# and when should you use each one?
++ [Q1. What is inheritance in C# and how does it work?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question1.md)
++ [Q2. Can you give an example of inheritance in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question2.md)
++ [Q3. What is the difference between single inheritance and multiple inheritance in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question3.md)
++ [Q4. How can you use inheritance to extend an existing class in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question4.md)
++ [Q5. Can you explain the concept of polymorphism and how it relates to inheritance in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question5.md)
++ [Q6. How can you use the "base" keyword in C# to call the base class constructor?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question6.md)
++ [Q7. What is an abstract class in C# and how does it differ from a regular class?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question7.md)
++ [Q8. Can you give an example of how to use inheritance to create a hierarchy of classes in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question8.md)
++ [Q9. What is an interface in C# and how is it related to inheritance?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question9.md)
++ [Q10. How can you use inheritance and polymorphism together to achieve dynamic dispatch in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question10.md)
++ [Q11. What is the purpose of the base keyword in C#, and how is it used in inheritance?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question11.md)
++ [Q12. Can you give an example of how to use the is operator and the as operator with inheritance in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question12.md)
++ [Q13. Can you discuss the differences between virtual methods and abstract methods in C#, and when each should be used?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question13.md)
++ [Q14. How do you handle constructor inheritance in C#, and what is the role of the base keyword in constructor inheritance?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question14.md)
++ [Q15. What is the difference between inheritance and composition in C# and when should you use each one?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/IN-Question15.md)
