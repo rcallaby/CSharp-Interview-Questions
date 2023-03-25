@@ -48,3 +48,13 @@ Code smells are not always a problem, but they can indicate potential issues wit
 Writing clean code is an important aspect of software development and is particularly important in the context of technical interviews. Understanding how to write clean code in C#, as well as SOLID principles and code smells, can help demonstrate your ability to write efficient, maintainable code, and can be an important factor in getting hired. Clean code is easier to read, maintain, and extend, which leads to fewer bugs and improved collaboration with other developers. Adhering to SOLID principles and avoiding code smells are critical steps in ensuring that code is well-designed and maintainable, and they can help demonstrate your understanding of good software development practices.
 
 ### Clean Code - Table of Contents
++ [Q1. What is the importance of writing clean code in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question1.md)
++ [Q2. Can you explain the SOLID principles of object-oriented programming and how they can be applied to C# code?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question2.md)
++ [Q3. What are some best practices for naming conventions in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question3.md)
++ [Q4. How can you write maintainable and scalable code in C#?]()https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question4.md
++ [Q5. Can you give an example of how to write self-explanatory code in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question5.md)
++ [Q6. How can you write code that is easy to understand for others in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question6.md)
++ [Q7. What is the role of comments in writing clean code in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question7.md)
++ [Q8. Can you explain the difference between writing procedural and object-oriented code in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question8.md)
++ [Q9. How can you write code that follows the DRY (Don't Repeat Yourself) principle in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question9.md)
++ [Q10. What are some common anti-patterns in C# and how can they be avoided to write clean code?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question10.md)
