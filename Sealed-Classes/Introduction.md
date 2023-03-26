@@ -25,8 +25,8 @@ Correctness: Sealed classes can help to ensure that your code behaves as expecte
 Mastering the use of sealed classes in C# is an important aspect of writing high-quality, efficient, and secure code. By understanding when and how to use sealed classes, you can help to ensure that your code is maintainable, correct, and performs well. If you're preparing for a technical interview, it's a good idea to make sure that you have a solid understanding of sealed classes and how they can be used effectively in C#.
 
 ### Table of Contents
-+ Q1. What is a sealed class in C# and why is it used?
-+ Q2. Can you give an example of how to declare a sealed class in C#?
-+ Q3. What is the difference between a sealed class and an unsealed class in C#?
-+ Q4. How can you use a sealed class to prevent inheritance in C#?
-+ Q5. What are the benefits of using a sealed class in C#?
++ [Q1. What is a sealed class in C# and why is it used?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Sealed-Classes/SC-Question1.md)
++ [Q2. Can you give an example of how to declare a sealed class in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Sealed-Classes/SC-Question2.md)
++ [Q3. What is the difference between a sealed class and an unsealed class in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Sealed-Classes/SC-Question3.md)
++ [Q4. How can you use a sealed class to prevent inheritance in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Sealed-Classes/SC-Question4.md)
++ [Q5. What are the benefits of using a sealed class in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Sealed-Classes/SC-Question5.md)
