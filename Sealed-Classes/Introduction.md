@@ -30,3 +30,5 @@ Mastering the use of sealed classes in C# is an important aspect of writing high
 + [Q3. What is the difference between a sealed class and an unsealed class in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Sealed-Classes/SC-Question3.md)
 + [Q4. How can you use a sealed class to prevent inheritance in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Sealed-Classes/SC-Question4.md)
 + [Q5. What are the benefits of using a sealed class in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Sealed-Classes/SC-Question5.md)
+* [Q6. Is it possible for a sealed class to be used as a base class in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Sealed-Classes/SC-Question6.md)
+* [Q7. Is it possible for a sealed class in C# to define virtual methods?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Sealed-Classes/SC-Question7.md)
