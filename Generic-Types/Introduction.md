@@ -33,13 +33,13 @@ Additionally, understanding Generic Types can help you to understand and work wi
 In summary, Generic Types in C# is an essential concept for developers to understand when working with C#. It provides the ability to create flexible and reusable code, leading to more efficient and maintainable software. Mastering Generic Types can be a valuable asset for technical interviews, demonstrating your ability to write efficient and flexible code.
 
 ### Table of Contents
-+ [Q1. What is a generic type in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question1.md)
-+ [Q2. How can you create a generic class in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question2.md)
-+ [Q3. Can you explain the difference between a generic class and a non-generic class in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question3.md)
-+ [Q4. What are the benefits of using generic types in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question4.md)
-+ [Q5. Can you give an example of a generic method in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question5.md)
-+ [Q6. What are the restrictions for using generic types in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question6.md)
-+ [Q7. How can you create a generic interface in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question7.md)
-+ [Q8. Can you explain the concept of type constraints in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question8.md)
-+ [Q9. How can you implement generic algorithms in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question9.md)
-+ [Q10. Can you explain the difference between a generic class and a class that uses a generic type as a parameter?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question10.md)
+- [Q1. What is a generic type in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question1.md)
+- [Q2. How can you create a generic class in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question2.md)
+- [Q3. Can you explain the difference between a generic class and a non-generic class in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question3.md)
+- [Q4. What are the benefits of using generic types in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question4.md)
+- [Q5. Can you give an example of a generic method in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question5.md)
+- [Q6. What are the restrictions for using generic types in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question6.md)
+- [Q7. How can you create a generic interface in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question7.md)
+- [Q8. Can you explain the concept of type constraints in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question8.md)
+- [Q9. How can you implement generic algorithms in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question9.md)
+- [Q10. Can you explain the difference between a generic class and a class that uses a generic type as a parameter?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Generic-Types/GT-Question10.md)

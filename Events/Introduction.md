@@ -37,8 +37,8 @@ Events are used in many libraries and frameworks in C#. If you are applying for 
 Events are a fundamental part of C# and are essential for creating responsive and interactive applications. If you are preparing for a technical interview, it is essential to have a good understanding of events and how they work. Interviewers will expect you to be familiar with events and be able to work with them in various scenarios. By understanding events inside and out, you can increase your chances of landing your dream job in C# development.
 
 ### Table of Contents
-+ [Q1. What is an event in C# and how does it work?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Events/EV-Question1.md)
-+ [Q2. Can you give an example of how to declare and raise an event in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Events/EV-Question2.md)
-+ [Q3. What is a delegate in C# and how is it related to events?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Events/EV-Question3.md)
-+ [Q4. How can you subscribe and unsubscribe to an event in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Events/EV-Question4.md)
-+ [Q5. Can you explain the difference between an event and a delegate in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Events/EV-Question5.md)
+- [Q1. What is an event in C# and how does it work?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Events/EV-Question1.md)
+- [Q2. Can you give an example of how to declare and raise an event in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Events/EV-Question2.md)
+- [Q3. What is a delegate in C# and how is it related to events?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Events/EV-Question3.md)
+- [Q4. How can you subscribe and unsubscribe to an event in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Events/EV-Question4.md)
+- [Q5. Can you explain the difference between an event and a delegate in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Events/EV-Question5.md)
