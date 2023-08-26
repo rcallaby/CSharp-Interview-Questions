@@ -2,10 +2,40 @@
 
 ## What is the difference between a method and a function in C#?
 
-In C#, both methods and functions are used to group a set of instructions that perform a specific task. However, there are some key differences between methods and functions in C#.
+In C#, both methods and functions are terms used to describe executable code blocks that can be called to perform specific tasks. However, there's a subtle distinction between the two:
 
-A method in C# is a code block that contains a series of statements that perform a particular operation. Methods can be defined as part of a class and can have access to the class's data and properties. Methods can also have parameters that allow the method to receive input data and return a value as output. Methods can be invoked by calling them by name, and they can also be overloaded to accept different parameters or have different implementations.
+Method:
+A method is a code block associated with a class or struct. It defines a set of instructions that can be executed on an instance of the class or struct, or it can be a static method that is associated with the class itself rather than instances of the class. Methods are used to perform actions, manipulate data, or provide functionality related to the class.
 
-A function in C# is a specific type of method that returns a value. In other words, a function is a method that performs a particular operation and then returns a value as a result of that operation. Functions can be defined with a return type, which specifies the type of the value that the function returns. The return value can be of any C# data type, including primitive types, custom types, and collections.
+Here's an example of a method within a class:
 
-So the main difference between a method and a function in C# is that a function always returns a value, while a method may or may not return a value. Additionally, functions are a subset of methods that are designed to return a value.
+```
+public class MathOperations
+{
+    public int Add(int a, int b)
+    {
+        return a + b;
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        MathOperations math = new MathOperations();
+        int result = math.Add(5, 3); // Calling the method
+        Console.WriteLine(result);   // Output: 8
+    }
+}
+
+
+```
+
+In this example, Add is a method defined within the MathOperations class. It takes two integers as parameters and returns their sum.
+
+Function:
+In C#, the term "function" is commonly used interchangeably with "method." However, in a broader context, a function is a self-contained block of code that performs a specific task and can return a value. This term is often used in languages that support both procedural programming and object-oriented programming. Since C# is primarily an object-oriented language, the concept of "function" is usually referred to as "method."
+
+So, while the distinction between methods and functions can be blurred, especially in C#, it's more accurate to use "method" when discussing code blocks associated with classes and structs in C#.
+
+To summarize, both methods and functions refer to executable code blocks in C#, but the term "method" is used more commonly in the context of classes and structs, while "function" might be used in a more general programming context.
