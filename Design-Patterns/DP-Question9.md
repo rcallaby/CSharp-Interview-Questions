@@ -2,12 +2,116 @@
 
 ## What is the Prototype pattern in C# and how does it differ from the Factory Method pattern?
 
-The Prototype pattern is a creational design pattern that enables you to create a new object by copying an existing object. The existing object acts as a prototype for the new object, and the new object is typically an exact copy of the prototype. This pattern can be used to reduce the number of classes you need to create, and it also makes it easier to create new objects since you can simply copy an existing object, rather than having to create a new object from scratch.
+The Prototype pattern and the Factory Method pattern are both creational design patterns in object-oriented programming, but they serve different purposes and have distinct implementations. Let's dive into each pattern with examples in C# to understand the differences.
 
-In C#, you can implement the Prototype pattern by defining an interface (or abstract class) that contains a Clone method. The Clone method is used to create a new object that is a copy of the original object. You can then implement this interface (or abstract class) in your concrete classes, providing an implementation for the Clone method that creates a copy of the object.
+Prototype Pattern:
+The Prototype pattern involves creating new objects by copying an existing object, known as the prototype. It's useful when creating new objects is costly in terms of time and resources, and you want to create new instances by cloning an existing one. This pattern is particularly effective when you have a complex object that's expensive to initialize, and you want to create variations of it quickly.
 
-The Factory Method pattern, on the other hand, is a creational design pattern that provides a way to create objects without having to specify the exact class of the object that will be created. In this pattern, a factory method is used to create an object, and the factory method is defined in a separate class called a factory. The factory class is responsible for deciding which class to instantiate, and it returns an instance of that class.
+```
+using System;
 
-In C#, you can implement the Factory Method pattern by defining an abstract factory class that contains a factory method. The factory method is used to create an object, and it is implemented by concrete factory classes. Each concrete factory class provides an implementation of the factory method that creates an instance of a specific type of object.
+// Prototype base class
+abstract class ShapePrototype
+{
+    public abstract ShapePrototype Clone();
+}
 
-The main difference between the Prototype and Factory Method patterns is that the Prototype pattern focuses on copying existing objects, while the Factory Method pattern focuses on creating new objects based on a factory method. The Prototype pattern is typically used when you need to create a new object that is a copy of an existing object, while the Factory Method pattern is typically used when you need to create a new object but you don't want to specify the exact class of the object that will be created.
+// Concrete prototype
+class Circle : ShapePrototype
+{
+    public int Radius { get; set; }
+
+    public override ShapePrototype Clone()
+    {
+        return (Circle)MemberwiseClone();
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Circle originalCircle = new Circle { Radius = 5 };
+        Circle clonedCircle = (Circle)originalCircle.Clone();
+
+        Console.WriteLine($"Original Circle Radius: {originalCircle.Radius}");
+        Console.WriteLine($"Cloned Circle Radius: {clonedCircle.Radius}");
+
+        Console.WriteLine($"Are the circles the same object? {(originalCircle == clonedCircle)}");
+    }
+}
+
+```
+
+In the above example, the Circle class serves as a prototype, and the Clone method creates a shallow copy of the object using MemberwiseClone. The Prototype pattern allows you to create new instances by cloning an existing one, avoiding expensive object creation.
+
+Factory Method Pattern:
+The Factory Method pattern focuses on creating objects through a dedicated factory method. This method is typically defined in an interface or an abstract class and implemented by concrete classes to create instances of related objects. It allows you to encapsulate the object creation process and delegate the responsibility to subclasses.
+
+```
+using System;
+
+// Product interface
+interface IProduct
+{
+    void Display();
+}
+
+// Concrete products
+class ConcreteProductA : IProduct
+{
+    public void Display()
+    {
+        Console.WriteLine("Concrete Product A");
+    }
+}
+
+class ConcreteProductB : IProduct
+{
+    public void Display()
+    {
+        Console.WriteLine("Concrete Product B");
+    }
+}
+
+// Creator abstract class
+abstract class Creator
+{
+    public abstract IProduct FactoryMethod();
+}
+
+// Concrete creators
+class ConcreteCreatorA : Creator
+{
+    public override IProduct FactoryMethod()
+    {
+        return new ConcreteProductA();
+    }
+}
+
+class ConcreteCreatorB : Creator
+{
+    public override IProduct FactoryMethod()
+    {
+        return new ConcreteProductB();
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Creator creatorA = new ConcreteCreatorA();
+        IProduct productA = creatorA.FactoryMethod();
+        productA.Display();
+
+        Creator creatorB = new ConcreteCreatorB();
+        IProduct productB = creatorB.FactoryMethod();
+        productB.Display();
+    }
+}
+
+```
+In this example, the Factory Method pattern is used to create instances of products (ConcreteProductA and ConcreteProductB) through their respective creators (ConcreteCreatorA and ConcreteCreatorB). The key difference from the Prototype pattern is that the Factory Method pattern focuses on creating objects using dedicated factory methods, while the Prototype pattern emphasizes cloning existing objects.
+
+In summary, the Prototype pattern involves cloning existing objects to create new ones, whereas the Factory Method pattern uses factory methods to create instances of related objects.
