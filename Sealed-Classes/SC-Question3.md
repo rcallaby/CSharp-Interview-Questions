@@ -2,10 +2,53 @@
 
 ## What is the difference between a sealed class and an unsealed class in C#?
 
-In C#, a sealed class and an unsealed (or non-sealed) class are two different kinds of classes with different capabilities and restrictions.
+In C#, a sealed class and an unsealed (or open) class have distinct characteristics related to inheritance and extension. Let's explore the differences between them using examples.
 
-An unsealed class is a regular class that can be inherited by other classes. It is the default type of class in C#. An unsealed class can be extended and modified by other classes that derive from it. An unsealed class can also be used as a base class for polymorphism, allowing derived classes to override and provide their own implementation of the base class's methods and properties.
+Sealed Class:
+A sealed class is a class that cannot be inherited. It's marked with the sealed keyword. This means you cannot create a derived class that inherits from a sealed class.
 
-On the other hand, a sealed class is a class that cannot be inherited by other classes. Once a class is marked as sealed, it becomes a leaf class in the inheritance hierarchy, which means it cannot be used as a base class for any other class. The primary purpose of a sealed class is to prevent further inheritance and modifications to its implementation, which can be useful when you want to restrict the behavior of a class to only what has been implemented in it.
+```
+sealed class SealedClass
+{
+    public void SomeMethod()
+    {
+        Console.WriteLine("Method in sealed class");
+    }
+}
 
-In summary, an unsealed class can be inherited and extended by other classes, while a sealed class cannot be inherited or modified further.
+class DerivedClass : SealedClass // This will result in a compilation error
+{
+    // ...
+}
+```
+In this example, attempting to derive a class from SealedClass (DerivedClass in this case) would result in a compilation error.
+
+Unsealed (Open) Class:
+An unsealed class is a regular class that can be inherited. By default, all classes in C# are unsealed, meaning they can be used as base classes for other classes.
+
+```
+class BaseClass
+{
+    public virtual void SomeMethod()
+    {
+        Console.WriteLine("Method in base class");
+    }
+}
+
+class DerivedClass : BaseClass
+{
+    public override void SomeMethod()
+    {
+        Console.WriteLine("Method in derived class");
+    }
+}
+
+```
+In this example, BaseClass is an unsealed class, and you can derive a new class from it (DerivedClass). The virtual keyword in the SomeMethod of the base class allows the method to be overridden in the derived class using the override keyword.
+
+To summarize:
+
+Sealed Class: Cannot be inherited. Marked with the sealed keyword.
+Unsealed (Open) Class: Can be inherited. By default, all classes are unsealed unless marked sealed.
+
+Use sealed classes when you want to prevent further derivation from a particular class to maintain control over its behavior and design. Use unsealed classes for normal class hierarchies where you expect other classes to derive from them and extend their functionality.
