@@ -51,7 +51,7 @@ Writing clean code is an important aspect of software development and is particu
 + [Q1. What is the importance of writing clean code in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question1.md)
 + [Q2. Can you explain the SOLID principles of object-oriented programming and how they can be applied to C# code?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question2.md)
 + [Q3. What are some best practices for naming conventions in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question3.md)
-+ [Q4. How can you write maintainable and scalable code in C#?]()https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question4.md
++ [Q4. How can you write maintainable and scalable code in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question4.md)
 + [Q5. Can you give an example of how to write self-explanatory code in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question5.md)
 + [Q6. How can you write code that is easy to understand for others in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question6.md)
 + [Q7. What is the role of comments in writing clean code in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/CC-Question7.md)
