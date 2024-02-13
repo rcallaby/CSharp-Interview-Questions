@@ -48,3 +48,5 @@ In conclusion, mastering a general knowledge of C# before a technical interview 
 - [Q18. Can you explain the difference between a method and an operator in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question18.md)
 - [Q19. What is LINQ in C# and what is its purpose?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question19.md)
 - [Q20. Can you explain the difference between lazy and eager evaluation in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question20.md)
+- [Q21. Please explain the use of reflection in C# and the most appropriate times to use it and most importantly the most inappropriate times to use it?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question21.md)
+- [Q22. Please explain the ?? operator and what is the correct way to use it in your code?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question22.md)

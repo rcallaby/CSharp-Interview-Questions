@@ -1,6 +1,6 @@
 # Question 21 - General Questions
 
-## Please explain the use of refkection in C# and the most appropriate times to use it and most importantly the most inappropriate times to use it?
+## Please explain the use of reflection in C# and the most appropriate times to use it and most importantly the most inappropriate times to use it?
 
 Reflection in C# is a powerful feature that allows you to inspect and interact with the metadata of types (classes, interfaces, etc.) at runtime. It provides a way to examine and manipulate the structure, behavior, and attributes of types, including accessing fields, properties, methods, and events dynamically.
 
