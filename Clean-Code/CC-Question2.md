@@ -2,28 +2,240 @@
 
 ## Can you explain the SOLID principles of object-oriented programming and how they can be applied to C# code?
 
-SOLID is an acronym that stands for five principles of object-oriented programming, aimed at creating maintainable and scalable software systems. These principles are:
+The SOLID principles are five design principles in object-oriented programming that help to create more maintainable, flexible, and scalable software. Here's a breakdown of each principle, with C# code examples:
 
-Single Responsibility Principle (SRP): A class should have only one reason to change, meaning that it should have only one responsibility.
+### 1. Single Responsibility Principle (SRP)
+A class should only have one reason to change, meaning it should only have one job or responsibility.
 
-Open/Closed Principle (OCP): Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification, meaning that you should be able to add new features to a class without changing its existing code.
+**Example**:
+```csharp
+// Violates SRP: Handles both employee data and salary calculation
+public class Employee
+{
+    public string Name { get; set; }
+    public double Salary { get; set; }
 
-Liskov Substitution Principle (LSP): Subtypes must be substitutable for their base types, meaning that if a class is a subtype of another class, it should be able to be used wherever the base class can be used without affecting the correctness of the program.
+    public void CalculateSalary()
+    {
+        // Logic for salary calculation
+    }
+}
 
-Interface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they do not use, meaning that you should split large interfaces into smaller, more specialized ones.
+// Following SRP: Separate responsibilities into different classes
+public class Employee
+{
+    public string Name { get; set; }
+}
 
-Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules; both should depend on abstractions, meaning that you should depend on abstractions, not on concrete implementations.
+public class SalaryCalculator
+{
+    public double CalculateSalary(Employee employee)
+    {
+        // Salary calculation logic
+        return 0; // Placeholder return value
+    }
+}
+```
 
-Here is an example of how these principles can be applied to C# code:
+In this example, `Employee` is responsible only for holding employee data, and `SalaryCalculator` is responsible for calculating salaries, thus each class has a single responsibility.
 
-SRP: To apply SRP in C#, you can extract responsibilities into separate classes, so each class has only one reason to change. For example, consider a class that performs both input validation and database access. You can extract the validation logic into a separate class and have the original class depend on it.
+---
 
-OCP: To apply OCP in C#, you can use polymorphism, abstract classes, and interfaces to allow for extensions without changing existing code. For example, consider a class that performs some operation. You can extract an interface that defines the operation, and allow clients to provide their own implementation of the operation, without changing the existing code.
+### 2. Open/Closed Principle (OCP)
+A class should be open for extension but closed for modification. You should be able to add new functionality without changing existing code.
 
-LSP: To apply LSP in C#, you can ensure that subclasses override base class methods in a way that is compatible with the base class contract. For example, consider a base class with a method that performs some calculation. You can extract an interface that defines the calculation, and have the base class implement it. Subclasses can then override the method and provide their own implementation of the calculation, as long as it is compatible with the base class contract.
+**Example**:
+```csharp
+// Violates OCP: Directly modifying the original code to add new features
+public class AreaCalculator
+{
+    public double CalculateRectangleArea(double width, double height) => width * height;
 
-ISP: To apply ISP in C#, you can extract smaller, more specialized interfaces from larger ones. For example, consider a large interface that defines many methods. You can extract smaller interfaces, each defining a subset of the methods, and have the original interface depend on them. Clients can then choose to implement only the interfaces they need, without being forced to implement methods they do not use.
+    public double CalculateCircleArea(double radius) => Math.PI * radius * radius;
+}
 
-DIP: To apply DIP in C#, you can use dependency injection to control the dependencies of a class. For example, consider a class that depends on a database. You can extract an interface that defines the database operations, and have the class depend on it. You can then provide a concrete implementation of the interface, without changing the existing code.
+// Following OCP: Using inheritance to extend functionality
+public abstract class Shape
+{
+    public abstract double CalculateArea();
+}
 
-By following these SOLID principles, you can create maintainable and scalable C# code that is easy to extend and modify.
+public class Rectangle : Shape
+{
+    public double Width { get; set; }
+    public double Height { get; set; }
+
+    public override double CalculateArea() => Width * Height;
+}
+
+public class Circle : Shape
+{
+    public double Radius { get; set; }
+
+    public override double CalculateArea() => Math.PI * Radius * Radius;
+}
+
+public class AreaCalculator
+{
+    public double CalculateArea(Shape shape) => shape.CalculateArea();
+}
+```
+
+By defining a base `Shape` class, new shapes (e.g., `Triangle`) can be added by creating new classes without modifying `AreaCalculator`.
+
+---
+
+### 3. Liskov Substitution Principle (LSP)
+Subtypes must be substitutable for their base types without altering the correctness of the program.
+
+**Example**:
+```csharp
+// Violates LSP: Square does not behave correctly as a Rectangle subclass
+public class Rectangle
+{
+    public virtual double Width { get; set; }
+    public virtual double Height { get; set; }
+}
+
+public class Square : Rectangle
+{
+    public override double Width
+    {
+        set { base.Width = base.Height = value; }
+    }
+
+    public override double Height
+    {
+        set { base.Width = base.Height = value; }
+    }
+}
+
+// Following LSP: Separate classes for Rectangle and Square, no inheritance
+public abstract class Shape
+{
+    public abstract double CalculateArea();
+}
+
+public class Rectangle : Shape
+{
+    public double Width { get; set; }
+    public double Height { get; set; }
+
+    public override double CalculateArea() => Width * Height;
+}
+
+public class Square : Shape
+{
+    public double Side { get; set; }
+
+    public override double CalculateArea() => Side * Side;
+}
+```
+
+Here, `Square` does not inherit from `Rectangle` since its behavior (equal width and height) differs. This respects LSP by keeping `Square` and `Rectangle` independent.
+
+---
+
+### 4. Interface Segregation Principle (ISP)
+A client should not be forced to implement interfaces it does not use. Split large interfaces into smaller, more specific ones.
+
+**Example**:
+```csharp
+// Violates ISP: Forcing implementations of unrelated methods
+public interface IWorker
+{
+    void Work();
+    void Sleep();
+}
+
+public class HumanWorker : IWorker
+{
+    public void Work() { /* Human work */ }
+    public void Sleep() { /* Human sleep */ }
+}
+
+public class RobotWorker : IWorker
+{
+    public void Work() { /* Robot work */ }
+    public void Sleep() { /* Robots don’t sleep */ }  // Awkward for robots
+}
+
+// Following ISP: Split interfaces into specific functionalities
+public interface IWorkable
+{
+    void Work();
+}
+
+public interface ISleepable
+{
+    void Sleep();
+}
+
+public class HumanWorker : IWorkable, ISleepable
+{
+    public void Work() { /* Human work */ }
+    public void Sleep() { /* Human sleep */ }
+}
+
+public class RobotWorker : IWorkable
+{
+    public void Work() { /* Robot work */ }
+}
+```
+
+Now, `RobotWorker` only implements `IWorkable`, avoiding irrelevant methods and better following ISP.
+
+---
+
+### 5. Dependency Inversion Principle (DIP)
+High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details, but details should depend on abstractions.
+
+**Example**:
+```csharp
+// Violates DIP: High-level class directly depends on a low-level class
+public class LightBulb
+{
+    public void TurnOn() { /* Light on */ }
+    public void TurnOff() { /* Light off */ }
+}
+
+public class Switch
+{
+    private LightBulb _bulb = new LightBulb();
+
+    public void Operate()
+    {
+        _bulb.TurnOn();
+    }
+}
+
+// Following DIP: Switch depends on an abstraction instead of a concrete class
+public interface ISwitchable
+{
+    void TurnOn();
+    void TurnOff();
+}
+
+public class LightBulb : ISwitchable
+{
+    public void TurnOn() { /* Light on */ }
+    public void TurnOff() { /* Light off */ }
+}
+
+public class Switch
+{
+    private ISwitchable _device;
+
+    public Switch(ISwitchable device)
+    {
+        _device = device;
+    }
+
+    public void Operate()
+    {
+        _device.TurnOn();
+    }
+}
+```
+
+By depending on `ISwitchable`, `Switch` can work with any device that implements this interface, making it more flexible and respecting DIP.
