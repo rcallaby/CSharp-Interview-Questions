@@ -6,7 +6,7 @@ In C#, inheritance allows you to define a new class based on an existing class. 
 
 Here is an example of inheritance in C#:
 
-```
+```csharp
 // base class
 public class Animal
 {

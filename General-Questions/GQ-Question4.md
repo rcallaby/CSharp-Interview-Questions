@@ -14,7 +14,7 @@ Interfaces: An interface is a contract that specifies a set of methods and prope
 
 Here's an example that shows how polymorphism can be achieved using method overriding in C#:
 
-```
+```csharp
 public class Animal {
     public virtual void MakeSound() {
         Console.WriteLine("Animal makes a sound.");

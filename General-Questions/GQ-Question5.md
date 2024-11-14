@@ -8,7 +8,7 @@ An abstract class is defined using the abstract keyword before the class keyword
 
 Here is an example of an abstract class in C#:
 
-```
+```csharp
 public abstract class Shape
 {
     public abstract double GetArea();
