@@ -6,7 +6,7 @@ Inheritance in C# is a mechanism by which a new class can be derived from an exi
 
 To create a derived class in C#, you use the colon (:) symbol after the name of the derived class and specify the name of the base class. For example:
 
-```
+```csharp
 class ChildClass : BaseClass
 {
     // Add new properties, methods, and fields here

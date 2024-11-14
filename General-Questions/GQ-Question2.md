@@ -9,7 +9,7 @@ In C#, classes serve as blueprints for creating objects. Let's go through some O
 Class and Object Creation:
 A class is a template that defines the structure and behavior of objects. An object is an instance of a class.
 
-```
+```csharp
 class Person
 {
     public string Name;

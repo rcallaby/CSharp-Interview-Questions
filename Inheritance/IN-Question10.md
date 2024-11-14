@@ -8,7 +8,7 @@ To achieve dynamic dispatch in C# using inheritance and polymorphism, you can fo
 
 Define a base class with a virtual method. This base class will serve as the superclass for all derived classes. The virtual method can be overridden by the derived classes.
 
-```
+```csharp
 public class Shape
 {
     public virtual void Draw()
@@ -20,7 +20,7 @@ public class Shape
 ```
 Define a derived class that inherits from the base class and overrides the virtual method. The derived class can implement its own version of the method.
 
-```
+```csharp
 public class Circle : Shape
 {
     public override void Draw()
@@ -32,7 +32,7 @@ public class Circle : Shape
 ```
 Instantiate an object of the derived class and call the virtual method. The runtime type of the object will determine which version of the method will be called.
 
-```
+```csharp
 Shape shape1 = new Shape();
 Shape shape2 = new Circle();
 

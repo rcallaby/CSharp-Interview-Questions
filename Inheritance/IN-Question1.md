@@ -17,7 +17,7 @@ The derived class then automatically inherits all the members of the parent clas
 
 For example, consider the following code:
 
-```
+```csharp
 class Animal
 {
     public string Name { get; set; }

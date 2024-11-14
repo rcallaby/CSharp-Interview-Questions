@@ -7,7 +7,7 @@ In object-oriented programming, inheritance is a mechanism that allows a new cla
 Single Inheritance:
 In single inheritance, a class can inherit from only one base class. This promotes a simpler and more straightforward class hierarchy.
 
-```
+```csharp
 // Base class
 class Animal
 {

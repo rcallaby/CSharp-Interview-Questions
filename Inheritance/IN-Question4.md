@@ -6,7 +6,7 @@ In C#, you can use inheritance to extend an existing class by creating a new cla
 
 Define the parent class: Start by defining the existing class that you want to extend. This class is often referred to as the "base class" or the "parent class".
 
-```
+```csharp
 public class ParentClass
 {
     // fields, properties, and methods of the parent class
@@ -15,7 +15,7 @@ public class ParentClass
 ```
 Define the child class: Create a new class that inherits from the parent class using the : symbol, followed by the name of the parent class.
 
-```
+```csharp
 public class ChildClass : ParentClass
 {
     // fields, properties, and methods of the child class
@@ -24,7 +24,7 @@ public class ChildClass : ParentClass
 ```
 Add new functionality: Now you can add new fields, properties, and methods to the child class that were not present in the parent class. The child class can also override or extend existing methods and properties of the parent class.
 
-```
+```csharp
 public class ChildClass : ParentClass
 {
     public int NewField { get; set; }

@@ -9,7 +9,7 @@ A method is a code block associated with a class or struct. It defines a set of 
 
 Here's an example of a method within a class:
 
-```
+```csharp
 public class MathOperations
 {
     public int Add(int a, int b)
