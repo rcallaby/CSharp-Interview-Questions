@@ -9,7 +9,7 @@ A virtual method is a method that can be overridden in a derived class. It provi
 
 Example:
 
-```
+```csharp
 public class MyBaseClass
 {
    public virtual void MyVirtualMethod()
@@ -32,7 +32,7 @@ An abstract method is a method that does not have a default implementation in th
 
 Example:
 
-```
+```csharp
 public abstract class MyBaseClass
 {
    public abstract void MyAbstractMethod();

@@ -6,7 +6,7 @@ In C#, constructor inheritance is handled through the use of the base keyword. T
 
 To inherit a constructor from a base class, the derived class must include a constructor that calls the base constructor using the base keyword. Here's an example:
 
-```
+```csharp
 public class MyBaseClass
 {
     private int myInt;

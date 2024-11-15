@@ -4,7 +4,7 @@
 
 Let's say we have a class hierarchy as follows:
 
-```
+```csharp
 class Animal
 {
     public virtual void MakeSound()
@@ -32,7 +32,7 @@ class Dog : Animal
 ```
 Now, we can use the is operator to check if an object is an instance of a particular class or one of its derived classes. For example:
 
-```
+```csharp
 Animal animal = new Cat();
 
 if (animal is Cat)
@@ -46,7 +46,7 @@ In the above code, we create an instance of Cat and assign it to an Animal varia
 
 We can also use the as operator to perform a safe cast to a derived class. If the object is not an instance of the derived class, the result will be null. For example:
 
-```
+```csharp
 Animal animal = new Dog();
 
 Cat cat = animal as Cat;
