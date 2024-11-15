@@ -8,7 +8,7 @@ In inheritance, the base keyword is used to call a constructor of the base class
 
 For example, consider the following code:
 
-```
+```csharp
 public class Vehicle
 {
     public int NumWheels { get; set; }
