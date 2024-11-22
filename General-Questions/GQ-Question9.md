@@ -13,7 +13,7 @@ Sealed methods can still be overridden by derived classes, but sealed classes ca
 It's best practice to mark a class as sealed if it is intended to be used as a standalone class and not be inherited.
 Here's an example of a sealed class in C#:
 
-```
+```csharp
 sealed class MySealedClass
 {
     // class members
