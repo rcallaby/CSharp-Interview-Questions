@@ -7,7 +7,7 @@ A Generic Type is a type that is defined with one or more type parameters. These
 
 For example, consider the following code snippet that defines a generic class:
 
-```
+```csharp
 public class List<T> {
     private T[] items;
     public void Add(T item) {
