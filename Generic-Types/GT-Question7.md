@@ -6,7 +6,7 @@ In C#, you can create a generic interface by using the "interface" keyword follo
 
 Here is an example of a generic interface with a single type parameter:
 
-```
+```csharp
 public interface IMyInterface<T>
 {
     void DoSomething(T item);
@@ -17,7 +17,7 @@ In this example, the interface "IMyInterface" has one type parameter "T". The me
 
 To use this interface, you would specify a concrete type for the type parameter when you implement the interface. For example, if you want to implement the interface for a list of integers, you would define a class that implements the interface like this:
 
-```
+```csharp
 public class MyList : IMyInterface<int>
 {
     public void DoSomething(int item)

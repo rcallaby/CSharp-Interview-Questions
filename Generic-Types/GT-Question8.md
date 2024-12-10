@@ -6,7 +6,7 @@ Type constraints in C# provide a way to restrict the types that can be used as t
 
 Here's an example of a generic method with a type constraint:
 
-```
+```csharp
 public static T Find<T>(T[] array, Predicate<T> match) where T : class
 {
     foreach (T item in array)

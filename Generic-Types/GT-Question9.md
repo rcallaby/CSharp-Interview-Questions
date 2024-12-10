@@ -12,7 +12,7 @@ Instantiate the generic type or method with a specific type when you use it in y
 
 For example, let's say you want to create a generic method that sorts an array of any type. Here's how you can implement it:
 
-```
+```csharp
 public static void GenericSort<T>(T[] array) where T : IComparable<T>
 {
     for (int i = 0; i < array.Length; i++)
