@@ -53,3 +53,8 @@ In conclusion, mastering a general knowledge of C# before a technical interview 
 - [Q23. Can you please explain the use of the as operator in C# and the best way to use it?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question23.md)
 - [Q24. Can you please demonstrate how you would use a bitwise operator in C#? What instances does it make the most sense to use this type of operator?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question24.md)
 - [Q25. Can you please demonstrate how you would use logical operators in C#? Plus can you give instances where it makes the most sense to do so.](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question25.md)
+- [Q26. What is an algorithm and can you give me an example?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question26.md)
+- [Q27. Can you describe the steps to your debugging process? Can you give me an example?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question27.md)
+- [Q28. What are reserved words in C#? Can you give me an example?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question28.md)
+- [Q29. Can you explain the difference between the .Net compiler and a GCC compiler? How does these differ in architecture and performance?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question29.md)
+- [Q30. What is Dynamic Dispatch in C# and how is it used?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question30.md)
