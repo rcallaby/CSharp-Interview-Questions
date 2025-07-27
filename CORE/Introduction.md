@@ -24,3 +24,7 @@ The shift from **IIS to Kestrel** as the default web server in ASP.NET Core is a
 
 In summary, these interview questions collectively probe a candidate's understanding of the architecture, tooling, and philosophy behind modern .NET Core and C# development. A strong grasp of these concepts not only demonstrates technical competency but also shows readiness for modern enterprise application development in the evolving .NET ecosystem.
 
+### Table of Contents
+
+
+
