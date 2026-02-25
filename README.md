@@ -17,15 +17,15 @@ Preparing for a technical interview for a C# role is a crucial step in landing a
 
 ## Table of Contents
 
-+ [General Questions](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/Introduction.md)
-+ [Events](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Events/Introduction.md)
-+ [Inheritance](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/Introduction.md)
-+ [LINQ](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/LINQ/Introduction.md)
-+ [Abstract Classes](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/Introduction.md)
-+ [Sealed Classes](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Sealed-Classes/Introduction.md)
-+ [Clean Code](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/Introduction.md)
-* [CORE](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/CORE/Introduction.md)
-+ [Design Patterns](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Design-Patterns/Introduction.md)
-+ [SOLID Code](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/SOLID-Code/Introduction.md)
-+ [Unit Tests](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Unit-Tests/Introduction.md)
+- [General Questions](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/Introduction.md)
+- [Events](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Events/Introduction.md)
+- [Inheritance](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Inheritance/Introduction.md)
+- [LINQ](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/LINQ/Introduction.md)
+- [Abstract Classes](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Abstract-Classes/Introduction.md)
+- [Sealed Classes](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Sealed-Classes/Introduction.md)
+- [Clean Code](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Clean-Code/Introduction.md)
+- [CORE](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/CORE/Introduction.md)
+- [Design Patterns](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Design-Patterns/Introduction.md)
+- [SOLID Code](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/SOLID-Code/Introduction.md)
+- [Unit Tests](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Unit-Tests/Introduction.md)
 
