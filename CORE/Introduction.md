@@ -27,4 +27,9 @@ In summary, these interview questions collectively probe a candidate's understan
 
 ### Table of Contents
 
+- [Question 01 - Please explain the differences between .Net and the .Net Framework?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/CORE/CO-Question01.md)
+- [Question 02 - Please tell me what is included in .Net and the reasons why some components aren't included in .Net Core](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/CORE/CO-Question02.md)
+- [Question 03 - Explain the difference between CoreCLR and .NEt CLR?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/CORE/CO-Question03.md)
+- [Question 04 - Explain the difference between Finalize vs Dispose in .Net CORE?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/CORE/CO-Question04.md)
+- [Question 05 - Explain the benefits of using Just In Time compliation in .Net Core?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/CORE/CO-Question05.md)
 
