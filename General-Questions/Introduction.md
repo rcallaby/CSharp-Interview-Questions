@@ -58,3 +58,6 @@ In conclusion, mastering a general knowledge of C# before a technical interview 
 - [Q28. What are reserved words in C#? Can you give me an example?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question28.md)
 - [Q29. Can you explain the difference between the .Net compiler and a GCC compiler? How does these differ in architecture and performance?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question29.md)
 - [Q30. What is Dynamic Dispatch in C# and how is it used?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question30.md)
+- [Q31. Explain the differences betwwen assembly code and CLR Code](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question31.md)
+- [Q32. Can you please describe the features of C# and the CLR in the .Net framework?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question32.md)
+- [Q33. Can you describe the improvements of the newest version of .Net version 9 and how these features are implemented in C#? How can you use these new features to improve your source code?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/General-Questions/GQ-Question33.md)
