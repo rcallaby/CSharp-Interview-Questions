@@ -1,0 +1,1 @@
+# AI-Question02 - .NET 8 introduced the System.Numerics.Tensors namespace. How do TensorPrimitives improve the performance of AI operations like dot products or cosine similarity compared to standard foreach loops?

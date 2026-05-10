@@ -1,0 +1,1 @@
+# AI-Question05 - How does System.Text.Json polymorphism support the handling of varied AI model responses (like different "tool calls" or "finish reasons")?

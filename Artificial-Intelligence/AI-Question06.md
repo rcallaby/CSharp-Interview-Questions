@@ -1,0 +1,1 @@
+# AI-Question06 - Explain how IAsyncEnumerable<T> is utilized when consuming streaming tokens from a Large Language Model (LLM) API to maintain UI responsiveness

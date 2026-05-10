@@ -1,0 +1,1 @@
+# AI-Question01 - In what scenarios would you advocate for using ML.NET within a C# ecosystem rather than calling a Python-based microservice?
