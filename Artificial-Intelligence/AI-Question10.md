@@ -1,0 +1,1 @@
+# AI-Question10 - How does "Native Ahead-of-Time" (AOT) compilation in .NET 8/9 benefit AI "Edge" applications? What are the trade-offs regarding reflection-heavy ML libraries?

@@ -1,0 +1,1 @@
+# AI-Question11 - If you are building a RAG (Retrieval-Augmented Generation) system in C#, how would you use System.Numerics to implement a local fallback for vector distance calculation?

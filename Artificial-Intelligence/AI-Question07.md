@@ -1,0 +1,1 @@
+# AI-Question07 - How does Single Instruction, Multiple Data (SIMD) support in .NET (via Vector<T>) impact the execution speed of custom embedding calculations?

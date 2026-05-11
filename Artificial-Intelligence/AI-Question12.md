@@ -1,0 +1,1 @@
+# AI-Question12 - Explain how a C# developer might handle a 4-bit or 8-bit quantized model using the ONNX Runtime. What happens to precision vs. memory footprint?
