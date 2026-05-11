@@ -1,0 +1,1 @@
+# AI-Question09 - Why is the use of Span<T> and Memory<T> critical when processing high-frequency sensor data for a real-time ML model in C#?

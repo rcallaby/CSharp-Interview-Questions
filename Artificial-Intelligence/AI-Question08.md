@@ -1,0 +1,1 @@
+# AI-Question08 - Describe the process of exporting a model from PyTorch/TensorFlow to ONNX and consuming it in C#. Why is ONNX often preferred for cross-platform C# AI deployments?
