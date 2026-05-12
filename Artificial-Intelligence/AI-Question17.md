@@ -1,0 +1,1 @@
+# AI - Question 17 - From a C# backend perspective, what patterns would you use to sanitize user inputs before they are injected into a ChatHistory object?

@@ -1,0 +1,1 @@
+# AI - Question 15 - If a specific AI hardware accelerator only provides a C++ SDK, how would you design a high-performance C# wrapper using LibraryImport?
