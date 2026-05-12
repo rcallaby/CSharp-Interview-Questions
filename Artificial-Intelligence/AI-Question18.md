@@ -1,0 +1,1 @@
+# AI -Question 18 - Explain the security implications of "Auto-Function Calling" in C#. How do you ensure the LLM doesn't execute a destructive DeleteDatabase(id) method?

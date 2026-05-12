@@ -1,0 +1,1 @@
+# AI - Question13 - Describe the "Planner" concept in Microsoft’s Semantic Kernel. How does it allow an AI to autonomously choose which C# methods to execute to solve a complex goal?

@@ -1,0 +1,1 @@
+# AI - Question 14 - How would you design a DI-friendly service that can swap between local LlamaEdge models and OpenAI cloud models without changing the business logic?
