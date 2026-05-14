@@ -1,4 +1,4 @@
-# AI-Question07 - How does Single Instruction, Multiple Data (SIMD) support in .NET (via Vector<T>) impact the execution speed of custom embedding calculations?
+# AI-Question 07 - How does Single Instruction, Multiple Data (SIMD) support in .NET (via Vector<T>) impact the execution speed of custom embedding calculations?
 
 **`System.Numerics.Vector<T>`** (and its fixed-size relatives `Vector128<T>`, `Vector256<T>`, `Vector512<T>`) brings hardware-accelerated **SIMD** to .NET, delivering substantial speedups for custom embedding calculations. These operations are dominated by element-wise arithmetic, reductions (sums), and fused multiply-add (FMA) patterns typical in dot products, cosine similarity, normalization, and lightweight projection layers.
 
