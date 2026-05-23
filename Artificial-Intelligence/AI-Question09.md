@@ -21,14 +21,21 @@ High-frequency sensor streams generate massive data volumes with strict latency 
 **Traditional vs Span/Memory Pipeline**
 ```mermaid
 flowchart TD
-    A[Sensor Hardware Buffer] --> B[Traditional: Copy to new float[]]
-    B --> C[GC Pressure + Allocations]
-    C --> D[Preprocessing]
-    D --> E[ONNX Tensor]
+    subgraph Traditional ["Traditional Approach"]
+        A[Sensor Hardware Buffer]
+        A --> B["Copy to new float[]"]
+        B --> C["GC Pressure + Allocations"]
+        C --> D[Preprocessing]
+        D --> E[ONNX Tensor]
+    end
 
-    F[Sensor Hardware Buffer] --> G[Span<T> / Memory<T> View]
-    G --> H[Zero-Copy Preprocess + SIMD]
-    H --> I[Direct Tensor Creation]
+    subgraph Optimized ["Optimized Zero-Copy Approach"]
+        F[Sensor Hardware Buffer]
+        F --> G["Span T / Memory T View"]
+        G --> H["Zero-Copy Preprocess + SIMD"]
+        H --> I["Direct Tensor Creation"]
+    end
+
     style G fill:#90EE90
     style H fill:#90EE90
 ```
