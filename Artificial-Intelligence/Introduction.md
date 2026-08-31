@@ -32,14 +32,14 @@ Whether you are preparing for software engineering interviews, exploring AI deve
 - [Q7. How does Single Instruction, Multiple Data (SIMD) support in .NET (via Vector) impact the execution speed of custom embedding calculations?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Artificial-Intelligence/AI-Question07.md)
 - [Q8. Describe the process of exporting a model from PyTorch/TensorFlow to ONNX and consuming it in C#. Why is ONNX often preferred for cross-platform C# AI deployments?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Artificial-Intelligence/AI-Question08.md)
 - [Q9. Why is the use of Span and Memory critical when processing high-frequency sensor data for a real-time ML model in C#?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Artificial-Intelligence/AI-Question09.md)
-- Q10.
-- Q11.
-- Q12.
-- Q13.
-- Q14,
-- Q15.
-- Q16.
-- Q16,
-- Q17.
-- Q18.
+- [Q10. How does "Native Ahead-of-Time" (AOT) compilation in .NET 8/9 benefit AI "Edge" applications? What are the trade-offs regarding reflection-heavy ML libraries](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Artificial-Intelligence/AI-Question10.md)
+- [Q11. If you are building a RAG (Retrieval-Augmented Generation) system in C#, how would you use System.Numerics to implement a local fallback for vector distance calculation?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Artificial-Intelligence/AI-Question11.md)
+- [Q12. Explain how a C# developer might handle a 4-bit or 8-bit quantized model using the ONNX Runtime. What happens to precision vs. memory footprint?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Artificial-Intelligence/AI-Question12.md)
+- [Q13. Describe the "Planner" concept in Microsoft’s Semantic Kernel. How does it allow an AI to autonomously choose which C# methods to execute to solve a complex goal?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Artificial-Intelligence/AI-Question13.md)
+- [Q14, How would you design a DI-friendly service that can swap between local LlamaEdge models and OpenAI cloud models without changing the business logic?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Artificial-Intelligence/AI-Question14.md)
+- [Q15. If a specific AI hardware accelerator only provides a C++ SDK, how would you design a high-performance C# wrapper using LibraryImport?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Artificial-Intelligence/AI-Question15.md)
+- [Q16. How do .NET Aspire or YARP (Yet Another Reverse Proxy) facilitate the scaling of AI inference engines across a cluster?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Artificial-Intelligence/AI-Question16.md)
+- [Q17, From a C# backend perspective, what patterns would you use to sanitize user inputs before they are injected into a ChatHistory object?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Artificial-Intelligence/AI-Question17.md)
+- [Q18. Explain the security implications of "Auto-Function Calling" in C#. How do you ensure the LLM doesn't execute a destructive DeleteDatabase(id) method?](https://github.com/rcallaby/CSharp-Interview-Questions/blob/main/Artificial-Intelligence/AI-Question18.md)
+
 
