@@ -4,7 +4,7 @@
 
 In C#, you can create a generic class by using the angle bracket notation to define a type parameter. A type parameter is a placeholder for a specific type that will be used when the class is instantiated. Here's an example of a generic class:
 
-```
+```csharp
 public class MyGenericClass<T>
 {
     private T myVariable;
@@ -25,7 +25,7 @@ In this example, the T is a type parameter that will be replaced with a specific
 
 To use this generic class, you can create an instance of it with a specific type, like this:
 
-```
+```csharp
 MyGenericClass<int> myIntClass = new MyGenericClass<int>(42);
 int myInt = myIntClass.GetVariable(); // returns 42
 
