@@ -4,7 +4,7 @@
 
 In C#, a generic class is a class that is parameterized by one or more type parameters. These type parameters are defined within angle brackets (<>) after the class name, and can be used to specify the type of data that the class will operate on. For example, the following is an example of a generic class in C# that operates on a type parameter T:
 
-```
+```csharp
 public class MyGenericClass<T>
 {
     private T myVariable;
@@ -23,7 +23,7 @@ public class MyGenericClass<T>
 ```
 A non-generic class, on the other hand, does not have any type parameters and operates on a fixed data type. For example, the following is an example of a non-generic class in C# that operates on an integer:
 
-```
+```csharp
 public class MyNonGenericClass
 {
     private int myVariable;
